@@ -5,14 +5,17 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Autocomplete {
+// I am testing git check in
+
 	public static String [] dict = {"abc", "acd", "bcd", "def", "a", "aba"};
+//main method
 	public static void main(String args[]) {
 		String prefix = null;
 		if (args != null && args.length > 0) {
 			prefix = args[0];
 		}
 		else {
-			prefix = "ab";
+			prefix = "ac";
 		}
 		
 		ArrayList<String> list = (ArrayList<String>)getMatches(prefix);
