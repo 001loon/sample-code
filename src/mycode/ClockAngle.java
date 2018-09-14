@@ -1,7 +1,7 @@
 package mycode;
 
 public class ClockAngle {
-
+//test change
 	public static void main (String [] args) {
 		String inputArgs = args[0];
 		int ind = inputArgs.indexOf(":");
