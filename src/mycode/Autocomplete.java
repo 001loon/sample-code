@@ -15,7 +15,7 @@ public class Autocomplete {
 			prefix = args[0];
 		}
 		else {
-			prefix = "ac";
+			prefix = "de";
 		}
 		
 		ArrayList<String> list = (ArrayList<String>)getMatches(prefix);
